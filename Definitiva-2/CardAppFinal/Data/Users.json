@@ -1,0 +1,21 @@
+
+[
+    {
+      "id": 1,
+      "nombre": "AlejandroHoppe",
+      "email": "alejandrohoppeperez@hotmail.es",
+      "contraseña": "contraseña",
+      "descripcion": "Soy Alejandro y esto es CardApp",
+      "telefono": 691153096,
+      "imagen": "placeholder"
+    },
+    {
+      "id": 2,
+      "nombre": "Mariano",
+      "email": "mariano@gmail.es",
+      "contraseña": "contraseña2",
+      "descripcion": "Vendo todo tipo de cartas",
+      "telefono": 911112111,
+      "imagen": "placeholder"
+    }
+]

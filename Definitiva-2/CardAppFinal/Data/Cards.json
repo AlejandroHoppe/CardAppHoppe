@@ -1,0 +1,113 @@
+[
+    
+    {
+        "id": 6,
+        "name": "Bulbasaur",
+        "price": 50.4,
+        "edicion": "Base Set",
+        "description": "Pokemón de la primera generación.",
+        "imageURL": "Bulbasaur",
+        "lang": "Japones",
+        "state": "usado",
+        "vendedor": "Pepe"
+    },
+    {
+        "id": 7,
+        "name": "Charizard",
+        "price": 10.2,
+        "edicion": "VMAX Climax",
+        "description": "Pokemón de la primera generación.",
+        "imageURL": "Charizard",
+        "lang": "Español",
+        "state": "usado",
+        "vendedor": "Mariano"
+    },
+    {
+        "id": 8,
+        "name": "Eevee",
+        "price": 3.9,
+        "edicion": "Destinos Brillantes",
+        "description": "Pokemón de la segunda generación.",
+        "imageURL": "Eevee",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor": "Isam"
+    },
+    {
+        "id": 9,
+        "name": "Pikachu",
+        "price": 2.1,
+        "edicion": "Destinos Brillantes",
+        "description": "Pokemón de la primera generación.",
+        "imageURL": "Pikachu",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor":"Gustavo"
+    },
+    {
+        "id": 10,
+        "name": "Salamence",
+        "price": 1.1,
+        "edicion": "Cielos Evolutivos",
+        "description": "Pokemón de la tercera generación.",
+        "imageURL": "Salamence",
+        "lang": "Japones",
+        "state": "nuevo",
+        "vendedor": "Brian"
+    },
+    {
+        "id": 16,
+        "name": "Mew",
+        "price": 49.4,
+        "edicion": "SWSH Black Star Promos",
+        "description": "Pokemón de la primera generación.",
+        "imageURL": "mew",
+        "lang": "Chino",
+        "state": "nuevo",
+        "vendedor": "Penelope"
+    },
+    {
+        "id": 17,
+        "name": "Mewtwo",
+        "price": 17.4,
+        "edicion": "Celebraciones",
+        "description": "Pokemón de la primera generación.",
+        "imageURL": "Mewtwo",
+        "lang": "Portugués",
+        "state": "usado",
+        "vendedor": "Paco"
+    },
+    {
+        "id": 18,
+        "name": "Milotic",
+        "price": 2.4,
+        "edicion": "edicion fuego",
+        "description": "Pokemón de la cuarta generación.",
+        "imageURL": "Milotic",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor": "Adolfo"
+    },
+    {
+        "id": 19,
+        "name": "Volcarona",
+        "price": 19.4,
+        "edicion": "Cielos Evolutivos",
+        "description": "Pokemón de la segunda generación.",
+        "imageURL": "Volcarona",
+        "lang": "Chino",
+        "state": "usado",
+        "vendedor": "Laura"
+    },
+    {
+        "id": 20,
+        "name": "Greninja",
+        "price": 3.4,
+        "edicion": "Cielos Evolutivos",
+        "description": "Pokemón de la cuarta generación.",
+        "imageURL": "Greninja",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor": "Ibai"
+    }
+]

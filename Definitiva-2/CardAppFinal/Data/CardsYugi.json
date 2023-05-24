@@ -1,0 +1,230 @@
+
+[
+    
+    {
+        "id": 11,
+        "name": "Dragón Blanco de Ojos Azules",
+        "price": 99.99,
+        "edicion": "Arsenal Secreto: Capítulo 1",
+        "description": "Este legendario dragón es una poderosa máquina de destrucción. Virtualmente invencible, muy pocos se han enfrentado a esta impresionante criatura y han vivido para contarlo.",
+        "imageURL": "Dragón Blanco de Ojos Azules",
+        "lang": "Inglés",
+        "state": "usado",
+        "vendedor": "Pepe"
+    },
+    {
+        "id": 12,
+        "name": "Dragón de Polvo de Estrellas",
+        "price": 6.2,
+        "edicion": "Toon Chaos",
+        "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+        "imageURL": "Dragón de Polvo de Estrellas",
+        "lang": "Español",
+        "state": "nuevo",
+        "vendedor": "Mariano"
+    },
+    {
+        "id": 13,
+        "name": "Exodia, el Prohibido",
+        "price": 7.5,
+        "edicion": "2016 Mega-Latas",
+        "description": "Yu-Gi-Oh! de la cuarta generación.",
+        "imageURL": "Exodia, el Prohibido",
+        "lang": "Español",
+        "state": "nuevo",
+        "vendedor": "Isam"
+    },
+    {
+        "id": 14,
+        "name": "Mago Oscuro",
+        "price": 0.25,
+        "edicion": "Arsenal Secreto: Capítulo 1",
+        "description": "El más grande de los magos en cuanto al ataque y la defensa.",
+        "imageURL": "Mago Oscuro",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor":"Gustavo"
+    },
+    {
+        "id": 15,
+        "name": "Luz Verdadera",
+        "price": 2.7,
+        "edicion": "2021 Tin of Ancient Battles",
+        "description": "a",
+        "imageURL": "Luz Verdadera",
+        "lang": "Francés",
+        "state": "nuevo",
+        "vendedor": "Brian"
+    },
+    {
+        "id": 26,
+        "name": "Guardián Celta",
+        "price": 19.25,
+        "edicion": "Legendary Duelists: Magical Hero",
+        "description": "Un elfo que aprendió a blandir la espada, y que desconcierta a los enemigos con ataques súbitos relampagueantes.",
+        "imageURL": "Guardián Celta",
+        "lang": "Ruso",
+        "state": "usado",
+        "vendedor": "Penelope"
+    },    {
+        "id": 27,
+        "name": "Dharc el Encantador Oscuro, Sombrío",
+        "price": 2.25,
+        "edicion": "Los Grandes Creadores",
+        "description": "Yu-Gi-Oh! de la última generación.",
+        "imageURL": "Dharc el Encantador Oscuro, Sombrío",
+        "lang": "Chino",
+        "state": "nuevo",
+        "vendedor": "Paco"
+    },    {
+        "id": 28,
+        "name": "Amo del Caos",
+        "price": 5.25,
+        "edicion": "Legendary Duelists: Magical Hero",
+        "description": "Yu-Gi-Oh! de la cuarta generación.",
+        "imageURL": "Amo del Caos",
+        "lang": "Español",
+        "state": "nuevo",
+        "vendedor": "Adolfo"
+    },    {
+        "id": 29,
+        "name": "Flowagrantiso y el Adviento de Aventura",
+        "price": 14.25,
+        "edicion": "Batalla del Caos",
+        "imageURL": "Flowagrantiso y el Adviento de Aventura",
+        "description": "Yu-Gi-Oh! de la segunda generación.",
+        "lang": "Inglés",
+        "state": "usado",
+        "vendedor": "Laura"
+    },    {
+        "id": 30,
+        "name": "Predaplanta Anaconda Verte",
+        "price": 10.25,
+        "edicion": "Explosión del Destino",
+        "description": "Yu-Gi-Oh! de la cuarta generación.",
+        "imageURL": "Predaplanta Anaconda Verte",
+        "lang": "Japones",
+        "state": "usado",
+        "vendedor": "Ibai"
+    },
+    
+    {
+
+            "id": 31,
+            "name": "Dragón Blanco de Ojos Azules",
+            "price": 9.80,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Maximum Gold",
+            "imageURL": "DragonGold",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 32,
+            "name": "Dragón Blanco de Ojos Azules",
+            "price": 0.50,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Legendary Duelists: White Dragon Abyss",
+            "imageURL": "DragonAbyss",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 33,
+            "name": "Dragón Blanco Güivexplosivo",
+            "price": 0.64,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Battles of Legend: Hero's Revenge",
+            "imageURL": "DragonGüivex",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 34,
+            "name": "Dragón Armado LV10 Blanco",
+            "price": 0.94,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Blazing Vortex",
+            "imageURL": "DragonArmado",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 35,
+            "name": "Dragón Blanco de Ojos Azules (V.3 - Gold Secret Rare)",
+            "price": 4.19,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "The Dark Side of Dimensions Movie Pack",
+            "imageURL": "DragonGoldSecretRare",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+
+        
+        {
+
+            "id": 36,
+            "name": "Dragón Blanco de Ojos Azules (V.2 - Ultra Rare)",
+            "price": 5.33,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Starter Deck: Kaiba",
+            "imageURL": "DragonGoldSecretRare",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 37,
+            "name": "Malicioso Dragón Blanco de Ojos Azules",
+            "price": 0.18,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Legendary Duelists: Season 2",
+            "imageURL": "DragonMalicioso",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 38,
+            "name": "Dragón Blanco de Ojos Azules",
+            "price": 4.76,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Oro Máximo: El Dorado",
+            "imageURL": "DragonOroMaximo",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        },
+        
+        {
+
+            "id": 39,
+            "name": "Dragón Blanco de Ojos Azules (V.4 - Ultra Rare)",
+            "price": 1.53,
+            "description": "Yu-Gi-Oh! de la primera generación.",
+            "edicion": "Legendary Collection Kaiba Mega Pack",
+            "imageURL": "DragonOroMaximo",
+            "lang": "Japones",
+            "state": "usado",
+            "vendedor": "Ibai"
+        }
+
+  
+]

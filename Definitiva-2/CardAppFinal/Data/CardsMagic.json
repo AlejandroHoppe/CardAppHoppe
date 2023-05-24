@@ -1,0 +1,114 @@
+
+[
+    {
+        "id": 1,
+        "name": "Last-Minute Chopping",
+        "price": 1.5,
+        "edicion": "Happy Holidays Promos",
+        "description": "Magic de la útlima generación.",
+        "imageURL": "Last-Minute Chopping",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor": "Pepe"
+    },
+    {
+        "id": 2,
+        "name": "Colmillothrag",
+        "price": 0.6,
+        "edicion": "Commander 2019",
+        "description": "Magic de la útlima generación.",
+        "imageURL": "Colmillothrag",
+        "lang": "Japones",
+        "state": "nuevo",
+        "vendedor": "Mariano"
+    },
+    {
+        "id": 3,
+        "name": "Despertar a los muertos",
+        "price": 3.3,
+        "edicion": "Double Masters",
+        "description": "Magic de la cuarta generación.",
+        "imageURL": "Despertar a los muertos",
+        "lang": "Español",
+        "state": "nuevo",
+        "vendedor": "Isam"
+    },
+    {
+        "id": 4,
+        "name": "Efara, diosa de la polis",
+        "price": 1.0,
+        "edicion": "Archenemy: Nicol Bolas",
+        "description": "Magic de la quinta generación.",
+        "imageURL": "Efara, diosa de la polis",
+        "lang": "Ruso",
+        "state": "nuevo",
+        "vendedor":"Gustavo"
+    },
+    {
+        "id": 5,
+        "name": "Black Lotus",
+        "price": 9.8,
+        "edicion": "Double Masters",
+        "description": "Magic de la primera generación.",
+        "imageURL": "Jin-Gitaxias, Progress Tyrant",
+        "lang": "Inglés",
+        "state": "usado",
+        "vendedor": "Brian"
+    },
+    {
+        "id": 21,
+        "name": "Go-Shintai of Life's Origin",
+        "price": 16.0,
+        "edicion": "Modern Masters 2017",
+        "description": "Magic de la cuarta generación.",
+        "imageURL": "Go-Shintai of Life's Origin",
+        "lang": "Francés",
+        "state": "usado",
+        "vendedor": "Penelope"
+    },
+    {
+        "id": 22,
+        "name": "Farewell",
+        "price": 4.0,
+        "edicion": "Modern Masters 2017",
+        "description": "Magic de la quinta generación.",
+        "imageURL": "Farewell",
+        "lang": "Inglés",
+        "state": "nuevo",
+        "vendedor": "Paco"
+    },
+    {
+        "id": 23,
+        "name": "Boseiju, Who Endures",
+        "price": 21.0,
+        "edicion": "La revuelta del éter",
+        "description": "Magic de la segunda generación.",
+        "imageURL": "Boseiju, Who Endures",
+        "lang": "Chino",
+        "state": "usado",
+        "vendedor": "Adolfo"
+    },
+    {
+        "id": 24,
+        "name": "Takenuma, Abandoned Mire",
+        "price": 3.0,
+        "edicion": "Magic 2013",
+        "description": "Magic de la última generación.",
+        "imageURL": "Takenuma, Abandoned Mire",
+        "lang": "Ruso",
+        "state": "nuevo",
+        "vendedor": "Laura"
+    },
+    {
+        "id": 25,
+        "name": "Jin-Gitaxias, Progress Tyrant",
+        "price": 15.0,
+        "edicion": "Theros Beyond Death",
+        "description": "Siempre que lances un hechizo de artefacto, instantáneo o de conjuro, copia ese hechizo. Puedes elegir nuevos objetivos para la copia. Esta habilidad se dispara solo una vez por turno. (Una copia de un hechizo permanente se convierte en una ficha).Siempre que un oponente lance un hechizo de artefacto, instantáneo o de conjuro, contrarresta ese hechizo. Esta habilidad se dispara solo una vez por turno.",
+        "imageURL": "Jin-Gitaxias, Progress Tyrant",
+        "lang": "Portugués",
+        "state": "usado",
+        "vendedor": "Ibai"
+    }
+  
+]

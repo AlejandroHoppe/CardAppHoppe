@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="45"/>
+        </scene>
+        <!--Perfil-->
+        <scene sceneID="jp6-70-Uhx">
+            <objects>
+                <viewController id="SBj-ri-Skb" customClass="PerfilAjenoViewController" customModule="CardAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sfc-0a-dGj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pepe" translatesAutoresizingMaskIntoConstraints="NO" id="3XT-cj-kZa">
+                                <rect key="frame" x="35" y="67" width="137" height="127.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127.5" id="WgE-Cm-YXD"/>
+                                    <constraint firstAttribute="width" constant="137" id="Wxb-Xv-2ql"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pepe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLX-ll-0NN">
+                                <rect key="frame" x="202" y="110" width="119" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soy Pepe y me flipan los cartones" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9i-WK-bOY">
+                                <rect key="frame" x="35" y="211" width="322" height="21.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-nY-TtB">
+                                <rect key="frame" x="35" y="283.5" width="343" height="34"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="5KO-Iq-wbH"/>
+                                    <constraint firstAttribute="width" constant="343" id="pGI-cT-S7F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Mostrar detalles">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="P9C-C8-PZI">
+                                <rect key="frame" x="12" y="355.5" width="390" height="439.5"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="C5k-fs-Nbv">
+                                    <size key="itemSize" width="135" height="193"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodCellId" id="pNC-pz-DkS" customClass="CardCell" customModule="CardAppFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="182"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="77u-8Z-OqG">
+                                            <rect key="frame" x="0.0" y="0.0" width="123" height="182"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Efara, diosa de la polis" translatesAutoresizingMaskIntoConstraints="NO" id="kRF-A9-Dhg">
+                                                    <rect key="frame" x="0.0" y="0.0" width="123" height="182"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kRF-A9-Dhg" firstAttribute="top" secondItem="77u-8Z-OqG" secondAttribute="top" id="70Z-a1-0Pv"/>
+                                                <constraint firstAttribute="trailing" secondItem="kRF-A9-Dhg" secondAttribute="trailing" id="UpZ-q1-bAO"/>
+                                                <constraint firstAttribute="bottom" secondItem="kRF-A9-Dhg" secondAttribute="bottom" id="cE6-t7-HT3"/>
+                                                <constraint firstItem="kRF-A9-Dhg" firstAttribute="leading" secondItem="77u-8Z-OqG" secondAttribute="leading" id="hgl-jP-GWX"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="123" height="182"/>
+                                        <connections>
+                                            <outlet property="imageURL" destination="kRF-A9-Dhg" id="wCs-W4-yqo"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwr-js-KHH">
+                                <rect key="frame" x="352" y="67" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="text.justify" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xrA-7V-9sB"/>
+                        <color key="backgroundColor" red="0.13239115479999999" green="0.15574646" blue="0.2138525248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3XT-cj-kZa" firstAttribute="leading" secondItem="xrA-7V-9sB" secondAttribute="leading" constant="35" id="4M2-ah-w0i"/>
+                            <constraint firstItem="sLX-ll-0NN" firstAttribute="leading" secondItem="3XT-cj-kZa" secondAttribute="trailing" constant="30" id="FwP-Z9-Kfv"/>
+                            <constraint firstItem="xrA-7V-9sB" firstAttribute="bottom" secondItem="P9C-C8-PZI" secondAttribute="bottom" constant="67" id="Igf-bc-V7D"/>
+                            <constraint firstItem="F9i-WK-bOY" firstAttribute="leading" secondItem="xrA-7V-9sB" secondAttribute="leading" constant="35" id="KcA-8E-i6w"/>
+                            <constraint firstItem="3Ou-nY-TtB" firstAttribute="leading" secondItem="xrA-7V-9sB" secondAttribute="leading" constant="35" id="Rf6-CT-MwR"/>
+                            <constraint firstItem="3Ou-nY-TtB" firstAttribute="top" secondItem="F9i-WK-bOY" secondAttribute="bottom" constant="51" id="ZEu-Jp-C5V"/>
+                            <constraint firstItem="F9i-WK-bOY" firstAttribute="top" secondItem="3XT-cj-kZa" secondAttribute="bottom" constant="16.5" id="fIf-Sm-FAH"/>
+                            <constraint firstItem="xrA-7V-9sB" firstAttribute="trailing" secondItem="P9C-C8-PZI" secondAttribute="trailing" constant="12" id="ipe-d5-zwG"/>
+                            <constraint firstItem="xrA-7V-9sB" firstAttribute="trailing" secondItem="F9i-WK-bOY" secondAttribute="trailing" constant="57" id="koP-HQ-2Nb"/>
+                            <constraint firstItem="F9i-WK-bOY" firstAttribute="top" secondItem="sLX-ll-0NN" secondAttribute="bottom" constant="61" id="mWM-K2-Nnw"/>
+                            <constraint firstItem="P9C-C8-PZI" firstAttribute="top" secondItem="3Ou-nY-TtB" secondAttribute="bottom" constant="38" id="rcf-DP-vvr"/>
+                            <constraint firstItem="xrA-7V-9sB" firstAttribute="trailing" secondItem="3Ou-nY-TtB" secondAttribute="trailing" constant="36" id="sFA-cp-lz6"/>
+                            <constraint firstItem="sLX-ll-0NN" firstAttribute="top" secondItem="xrA-7V-9sB" secondAttribute="top" constant="66" id="sRx-HT-m4x"/>
+                            <constraint firstItem="xrA-7V-9sB" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="sLX-ll-0NN" secondAttribute="trailing" constant="93" id="vJW-gP-eCJ"/>
+                            <constraint firstItem="3XT-cj-kZa" firstAttribute="top" secondItem="xrA-7V-9sB" secondAttribute="top" constant="23" id="vom-gZ-mhW"/>
+                            <constraint firstItem="P9C-C8-PZI" firstAttribute="leading" secondItem="xrA-7V-9sB" secondAttribute="leading" constant="12" id="yfD-2L-gz7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="person.fill" catalog="system" id="c8d-9Q-eDB">
+                        <color key="badgeColor" systemColor="systemOrangeColor"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="collectionView" destination="P9C-C8-PZI" id="hdT-5u-r72"/>
+                        <outlet property="userImageView" destination="3XT-cj-kZa" id="xdj-l5-fvU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ka-W5-bC1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479.71014492753625" y="-147.32142857142856"/>
+        </scene>
+        <!--Perfil Editar View Controller-->
+        <scene sceneID="1oI-5E-0ZC">
+            <objects>
+                <viewController id="m7E-gn-uuf" customClass="PerfilEditarViewController" customModule="CardAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="49m-Ir-eVR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pepe" translatesAutoresizingMaskIntoConstraints="NO" id="7Oh-Yy-Ji7">
+                                <rect key="frame" x="139" y="80.5" width="137" height="126.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pepe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zr6-TH-iAQ">
+                                <rect key="frame" x="36" y="245" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8057073951" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soy Pepe y me flipan los cartones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4L-fb-dAw">
+                                <rect key="frame" x="36" y="320" width="343" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8057073951" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pepe@gmail.es" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p99-Ls-2K7">
+                                <rect key="frame" x="36" y="482" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8057073951" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="691000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONs-O9-bR0">
+                                <rect key="frame" x="36" y="543" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8057073951" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Hih-EK-kpd">
+                                <rect key="frame" x="87" y="606" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FwS-eW-vQk"/>
+                        <color key="backgroundColor" red="0.13239115479999999" green="0.15574646" blue="0.2138525248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZ9-JG-J07" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142.0289855072465" y="-147.32142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Efara, diosa de la polis" width="125.5" height="178"/>
+        <image name="Logo" width="242.5" height="222.5"/>
+        <image name="Pepe" width="600" height="872.5"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="text.justify" catalog="system" width="128" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

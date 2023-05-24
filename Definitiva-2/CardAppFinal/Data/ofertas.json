@@ -1,0 +1,93 @@
+[
+{
+    "id": 1,
+    "name": "Pepe",
+    "edition": "Toon Chaos",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 0.2,
+    "lang": "ENG",
+    "state": "usado"
+},{
+    "id": 2,
+    "name": "Mariano",
+    "edition": "Duel Power",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 0.3,
+    "lang": "ENG",
+    "state": "nuevo"
+},{
+    "id": 3,
+    "name": "Isam",
+    "edition": "Duel Power",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 0.3,
+    "lang": "ENG",
+    "state": "nuevo"
+},{
+    "id": 4,
+    "name": "Gustavo",
+    "edition": "Advent Calendar 2011",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 2.0,
+    "lang": "ENG",
+    "state": "usado"
+},{
+    "id": 4,
+    "name": "Brian",
+    "edition": "Duelist Pack: Yusei Fudo",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 2.2,
+    "lang": "ENG",
+    "state": "usado"
+},{
+    "id": 5,
+    "name": "Paco",
+    "edition": "Advent Calendar 2011",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 2.7,
+    "lang": "ENG",
+    "state": "usado"
+},{
+    "id": 6,
+    "name": "Laura",
+    "edition": "edicion fuego",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 2.8,
+    "lang": "ENG",
+    "state": "nuevo"
+},{
+    "id": 7,
+    "name": "Ibai",
+    "edition": "Toon Chaos",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 2.9,
+    "lang": "ENG",
+    "state": "usado"
+},{
+    "id": 8,
+    "name": "Marcos",
+    "edition": "Toon Chaos",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 3.0,
+    "lang": "ENG",
+    "state": "nuevo"
+},{
+    "id": 9,
+    "name": "Javier",
+    "edition": "Duelist Pack: Yusei Fudo",
+    "quantity": 2,
+    "description": "Cuando es activada una carta o efecto que fuera a destruir una o más cartas en el Campo (Efecto Rápido): puedes Sacrificar esta carta; niega la activación y, si lo haces, destruye la carta. Durante la End Phase, si este turno este efecto fue activado (y no fue negado): puedes Invocar esta carta de Modo Especial desde tu Cementerio.",
+    "price": 3.1,
+    "lang": "ESP",
+    "state": "usado"
+}
+]
